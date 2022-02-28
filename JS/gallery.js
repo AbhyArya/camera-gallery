@@ -1,7 +1,7 @@
 const galleryCont = document.querySelector(".gallery-cont");
 const back = document.querySelector(".back");
 back.addEventListener("click", (e) => {
-  location.assign("./HTML/index.html");
+  location.assign("../index.html");
 });
 setTimeout(() => {
   if (DB) {
